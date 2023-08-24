@@ -9,7 +9,7 @@ public class Produto {
 
     public double vlrTotalEstoque(){
         return quantidade * preco;
-    };
+    }
     public void addProduto(int quant) {
         quantidade = quantidade + quant;
     }
