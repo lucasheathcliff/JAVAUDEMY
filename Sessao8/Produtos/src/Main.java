@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         Produto p = new Produto();
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite os dados do Produto:");
         System.out.println("Nome:");
