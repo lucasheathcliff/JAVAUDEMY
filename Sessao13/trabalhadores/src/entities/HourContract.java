@@ -2,12 +2,12 @@ package entities;
 
 import java.util.Date;
 
-public class ContratoDeHoras {
+public class HourContract {
     private Date momento;
     private Double valorHora;
     private Integer horas;
 
-    public ContratoDeHoras(Date momento, Double valorHora, Integer horas) {
+    public HourContract(Date momento, Double valorHora, Integer horas) {
         this.momento = momento;
         this.valorHora = valorHora;
         this.horas = horas;
@@ -47,6 +47,6 @@ public class ContratoDeHoras {
     }
 
     public Double valorTotal(){
-        return 1000.00;
+        return valorHora * horas;
     }
 }

@@ -6,15 +6,17 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class Main {
+public class Main{
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        double n = 3.14159;
-        double raio = sc.nextDouble();
-        double a = n * (raio * raio);
-        System.out.printf("A=%.4f", a);
-        /**2
+        System.out.println("Digite o valor de a: ");
+        double a = sc.nextDouble();
+        System.out.println("Digite o valor de b: ");
+        double b = sc.nextDouble();
+        double media = (a + b) / 2;
+        System.out.printf("MEDIA = %.5f", media );
+        /**
          * Escreva a sua solução aqui
          * Code your solution here
          * Escriba su solución aquí
